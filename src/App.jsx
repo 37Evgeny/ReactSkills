@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
 
-        <p className='name'>
+        {/* <p className='name'>
             Счетчик
         </p>
         <h1 className='counter'>
@@ -33,9 +33,9 @@ function App() {
         <button onClick={nextCount} className='next'>
             плюс
         </button>
-        </div>
+        </div> */}
        
-        {/* <div className='modal__cnt'>
+        <div className='modal__cnt'>
             <div className='modal__open__btn'>
               <button onClick={()=>setOpen(true)} className='btn'>
                   Открыть окно
@@ -48,7 +48,7 @@ function App() {
               </div>
             }
             </div>
-        </div> */}
+        </div>
     </div>
 
     
